@@ -1,0 +1,37 @@
+<div id="description-container" data-controller="showImg">
+  <div id="desc-text-container">
+    <h2>- Description -</h2>
+    <br>
+    <p>Cette maison pleine de charme se compose, au rez-de-chaussée, d’un grand salon conviviale avec wifi, d’une cuisine avec bar ouvert sur le salon, d’une seconde cuisine sur l’arriere et d’une salle de bain avec toilette.  <br>
+      <br>
+      Elle benéficie de quatres chambres, à l’étage, une suite parentale avec sa salle d’eau et ses toilettes, ainsi que deux chambres communicantes par une salle d’eau et toilette commune. Une chambre est indépendante a la maison.
+      Chaque chambre posède un lit double et des rangements ou une armoir. <br>
+      <br>
+      A t’exterieur, une belle et grande terasse qui fait le tour de la maison. Sur cette terrasse vous y trouverez une grande table de recepetion face à laquelle se trouve une cuisine exterieur. <br>
+      <br>
+      La Casa Tropical regorge de petits endroits aménager dans lesquelles vous vous sentirez bien comme des petits salons cosy disposposer a differents endroit dans le jardin. <br>
+      <br>
+      Dans le  jardin vous découvrirez une piscine avec vue imprenable sur la mer, un grand salon d’exterieur confortable ainsi que de nombreux hamacs situés à differents emplacement tout autour de la maison.</p>
+  </div>
+  <br>
+  <div id="desc-img-container"  data-action="click->showImg#show">
+    <%= render "allphotos" %>
+    <div class="big-img-container">
+      <%= cl_image_tag("Casa tropical/terrasseav2.jpg", :crop=>"fill") %>
+    </div>
+    <div class="wrap-img-container">
+    <div class="wrap-img top-img">
+      <%= cl_image_tag("Casa tropical/bed-room.jpg", height:'100%', width:'100%') %>
+    </div>
+    <div class="wrap-img top-img angle-img-top-right">
+      <%= cl_image_tag("Casa tropical/terrassearr2.jpg", height:'100%', width:'100%') %>
+    </div>
+    <div class="wrap-img  bot-img">
+      <%= cl_image_tag("Casa tropical/salon.jpg", height:'100%', width:'100%') %>
+    </div>
+    <div class="wrap-img bot-img angle-img-bot-right">
+      <%= cl_image_tag("Casa tropical/terrasse.jpg", height:'100%', width:'100%') %>
+    </div>
+    </div>
+  </div>
+</div>

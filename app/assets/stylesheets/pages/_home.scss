@@ -1,0 +1,52 @@
+html {
+  overflow-x: hidden!important;
+}
+
+body {
+  padding: 1% 3%;
+  background-color: #FAE6CE;
+  overflow-x: hidden!important;
+}
+
+h1 {
+  font-size: calc(25px + (30 - 25) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+  font-size: calc(9px + (13 - 9) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+  font-size: calc(7px + (16 - 7) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+a {
+  font-size: calc(11px + (15 - 11) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Libre Baskerville', serif;
+}
+
+hr {
+  height: 2px;
+  opacity: 1;
+}
+
+#pres-loc {
+  margin: -.5% .5;
+}
+#loc-desc {
+  margin: 1% 0 3%;
+}

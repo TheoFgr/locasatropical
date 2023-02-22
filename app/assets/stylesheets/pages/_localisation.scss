@@ -1,0 +1,33 @@
+#localisation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+
+  #map-container {
+    width: 50%;
+
+    #map {
+      width: 100%;
+
+      img {
+        width: 80%;
+        margin: 0 10%;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  #loc-text-container {
+    width: 50%;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      width: 86%;
+      margin: 0 7%;
+    }
+  }
+}
